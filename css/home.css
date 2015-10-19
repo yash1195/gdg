@@ -9,6 +9,7 @@ body{
 	width: 100%;
 	margin: 0 0;
 	font-family: "Gotham";
+	/*font-family: 'Roboto', sans-serif;*/
 	font-weight: 100;
 	text-align: center;
 	background-color: #fff;
@@ -110,55 +111,63 @@ body{
 	line-height: 200px;
 }
 .bg-page2-mid-text{
-	margin-top: 20%;
+	margin-top: 25%;
 	width: 100%;
 	font-size: 60px;
 	font-weight: 500;
 	line-height: 200px;
 }
 .bg-page3-mid-text{
-	margin-top: 10%;
+	margin-top: 20%;
 	width: 100%;
 	font-size: 60px;
 	font-weight: 500;
 	line-height: 200px;
 }
 .page-head{
-	font-size: 40px;
+	font-size: 60px;
 	color: rgba(52, 152, 219,1);
 	padding-bottom: 10px;
 }
+#head2{
+	color: #34A853;
+}
 .page-content{
 	line-height: 40px;
+	font-size: 25px;
 	vertical-align: middle;
 }
 .gdg-logo1{
 	position: absolute;
 	top: 20%;
-	left: 0.5vw;
+	left: -4vw;
 	width: 40%;
 	height: 400px;
 	z-index: 3;
 }
 .white-text{
-	color: #fff;
+	color: rgba(255, 255, 255,1);
 	vertical-align: middle;
-	font-size: 100px;
+	font-size: 120px;
 }
 .blue-text{
-	color: rgba(52, 152, 219,.9);
-	font-size: 150px;
+	color: #4285F4;
+	font-family: sans-serif;
+	font-size: 160px;
 	font-weight: 800;
 	vertical-align: middle;
 }
 .chevron1{
-	width: 100%;
 	position: absolute;
 	top: 85%;
-	left: 0%;
+	left: 48%;
 	font-size: 60px;
 	font-weight: 100;
 	color: #fff;
+	cursor: pointer;
+}
+.chevron1:hover{
+	color: #EA4335;
 }
 .foot{
 	width: 100%;
@@ -168,8 +177,12 @@ body{
 	color: #fff;
 	font-size: 16px;
 }
+#head1{
+	color: #097C3F;
+}
 #wtm-head{
 	text-align: left;
+	color: #EA4335;
 }
 #wtm-content{
 	text-align: left;
@@ -185,11 +198,12 @@ body{
 	background-color: #212121;
 	margin-top: 5vh;
 	margin-bottom: 5vh;
+	cursor: pointer;
 }
 .separator{
 	width: 100%;
-	height: 8px;
-	background-color: #2c3e50;
+	height: 45px;
+	background-color: #ecf0f1;
 }
 .events-page{
 	width: 100%;
@@ -263,5 +277,81 @@ body{
 .past-events{
 	width: 100%;
 	height: 268vh; /*testing*/
-	background-color: #2c3e50;
+	background-color: #ecf0f1;
+}
+.team-head{
+	background-color: #03A9F4;
+	color: #fff;
+	font-size: 50px;
+	width: 94%;
+	padding: 2%;
+	padding-left: 4%;
+	text-align: left;
+	z-index: 2;
+}
+.team-sticky{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.mimg{
+	width: 100%;
+	height: 100%;
+	border-radius: 100px;
+}
+.manager-block{
+	width: 400px;
+	height: 200px;
+	margin: 50px;
+	float: left;
+}
+.mblock-1{
+	width: 50%;
+	height: 100%;
+	float: left; 
+}
+.mblock-2{
+	width: 40%;
+	height: 90%;
+	float: left;
+	margin-left: 10%;
+	line-height: 40px;
+	text-align: left;
+	margin-top: 10%;
+	font-size: 14px;
+}
+.mname{
+	font-size: 20px;
+}
+.team-page{
+	width: 100%;
+	height: 140vh;
+	z-index: 2;
+}
+.link-row{
+	width: 100%;
+	background-color: #ecf0f1;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.social-icon{
+	font-size: 35px;
+	margin: 60px;
+	text-decoration: none;
+}
+.fb{
+	color: #2980b9;
+}
+.fb:hover{
+	color: #3498db;
+}
+.gplus{
+	color: #c0392b;
+}
+.gplus:hover{
+	color: #e74c3c;
+}
+.disclaimer{
+	font-size: 14px;
 }
