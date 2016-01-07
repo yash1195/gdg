@@ -7,7 +7,7 @@
 
 	<script type="text/javascript">
 		<!--
-		if (screen.width <= 699) {
+		if (screen.width <= 1200) {
 		document.location = "http://m.gdgmanipal.in";
 		}
 		//-->
