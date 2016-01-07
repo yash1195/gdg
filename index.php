@@ -4,6 +4,15 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>GDG Manipal</title>
+
+	<script type="text/javascript">
+		<!--
+		if (screen.width <= 699) {
+		document.location = "http://m.gdgmanipal.in";
+		}
+		//-->
+	</script>
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/gotham.css">
 	<!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'> -->
