@@ -60,3 +60,12 @@ $(document).on('click','#subscribe-btn',function(){
     });
 
 });
+$(window).load(function(e){
+
+    $('#loader').css({
+          'display':'none'
+    });
+    $('.loader-overlay').animate({
+        'opacity':'0'
+    },2500);
+});

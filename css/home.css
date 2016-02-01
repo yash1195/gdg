@@ -382,3 +382,19 @@ body{
 .disclaimer{
 	font-size: 14px;
 }
+
+.loader-overlay{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	background-color: #121314;
+}
+#loader{
+	position: absolute;
+	left: 48%;
+	top: 48%;
+	color: #02C39A;
+	font-size: 50px;
+}

@@ -25,6 +25,13 @@
 </head>
 <body>
 	<div class='website-container'>
+
+		<!-- LOADER OVERLAY -->
+
+		<div class='loader-overlay'>
+			<i class="fa fa-circle-o-notch fa-spin" id='loader'></i>
+		</div>1
+
 		<div class='shadow'></div>
 		<div class='bg-page1' data-stellar-background-ratio="0.05"></div>
 		<div class='bg-page1-text'>
