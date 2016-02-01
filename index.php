@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -61,8 +63,16 @@
 			<div class='page-content' id='wtm-content'>
 				
 				Google's Women Techmakers program provides visibility, community, and resources for women in technology.
+				<br>
+				<!-- Subscribe to GDG to get notifications from GDG. -->
 			</div>
-			<button id='wtm-button'> Join the community</button>
+			<!-- <button id='wtm-button'> Join the community</button> -->
+			<!-- <div class='subscribe-container'>
+				<input type="text" id='subscribe-input'>
+				<span id='subscribe-btn'>Subscribe</span>	
+			</div>
+			<br>
+			<div id='subscribe-thankyou'>Thank you.</div> -->
 		</div>
 		<div class="separator"></div>
 		<iframe id="wtm-video" width="560" height="315" src="https://www.youtube.com/embed/tjFeLln_tfg" frameborder="0" allowfullscreen></iframe>
@@ -74,48 +84,62 @@
 				<!-- EVENT STARTS -->
 				<div class='event-card'>
 					<div class='event-picture-box'>
-						<img src="images/dart.jpg" class='event-picture' alt="">
+						<img src="images/web-workshop.jpg" class='event-picture' alt="">
 					</div>
 					<div class='event-info'>
-						<div class='event-info-title'>Dart Workshop</div>
+						<div class='event-info-title'>Web Development Workshop</div>
 						<div class='event-info-descrip'>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nam blanditiis fuga repellendus vero quos dolorum eaque, voluptas ex adipisci assumenda cum odit vitae! Aperiam excepturi officia, nostrum consequuntur nesciunt.
+							Two day workshop on HTML5 and JavaScript. Learning the basics of web development which
+
+serves as backbone for other Google Technologies. Google goodies were up for grabs.
 						</div>
 					</div>
 				</div>
 				<!-- EVENT STARTS -->
 				<div class='event-card'>
 					<div class='event-picture-box'>
-						<img src="images/dart.jpg" class='event-picture' alt="">
+						<img src="images/wtm-event.jpg" class='event-picture' alt="">
 					</div>
 					<div class='event-info'>
-						<div class='event-info-title'>Dart Workshop</div>
+						<div class='event-info-title'>Google Cloud Workshop and Women TechMakers’ Introduction</div>
 						<div class='event-info-descrip'>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nam blanditiis fuga repellendus vero quos dolorum eaque, voluptas ex adipisci assumenda cum odit vitae! Aperiam excepturi officia, nostrum consequuntur nesciunt.
+							Introduction to Google Cloud as a platform to host mobile apps and using App Engine for
+
+backend. Also had a one hour introduction of GDG Women Community.
 						</div>
 					</div>
 				</div>
 				<!-- EVENT STARTS -->
 				<div class='event-card'>
 					<div class='event-picture-box'>
-						<img src="images/dart.jpg" class='event-picture' alt="">
+						<img src="images/polymer-event.jpg" class='event-picture' alt="">
 					</div>
 					<div class='event-info'>
-						<div class='event-info-title'>Dart Workshop</div>
+						<div class='event-info-title'>Polymer Hackathon</div>
 						<div class='event-info-descrip'>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nam blanditiis fuga repellendus vero quos dolorum eaque, voluptas ex adipisci assumenda cum odit vitae! Aperiam excepturi officia, nostrum consequuntur nesciunt.
+							Held session on Polymer, the web framework by Google and submission for web apps.
+
+The participants submitted 11 web apps in total and were adjudged on the following criteria-
+
+Best UI, Best Idea and Best App.
 						</div>
 					</div>
 				</div>
 				<!-- EVENT STARTS -->
 				<div class='event-card'>
 					<div class='event-picture-box'>
-						<img src="images/dart.jpg" class='event-picture' alt="">
+						<img src="images/android-wear.jpg" class='event-picture' alt="">
 					</div>
 					<div class='event-info'>
-						<div class='event-info-title'>Dart Workshop</div>
+						<div class='event-info-title'>Android Wear Hackathon</div>
 						<div class='event-info-descrip'>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nam blanditiis fuga repellendus vero quos dolorum eaque, voluptas ex adipisci assumenda cum odit vitae! Aperiam excepturi officia, nostrum consequuntur nesciunt.
+							The Hackathon was divided in two parts Android Hack and Wear Hack, with main focus on
+
+wear. The app idea could belong to any of the app categories available on the play store.
+
+Brownie points awarded to apps focusing on Education, Health, Information Access, Women 
+
+Security, Disaster Management.
 						</div>
 					</div>
 				</div>
@@ -154,18 +178,6 @@
 					<div class='mname'>Muskan Gupta</div>
 					<div class='mtenure'>2015 - Present</div>
 					<div class='mmail'>muskan.gupta@gmail.com</div>
-				</div>
-			</div>
-
-
-			<div class='manager-block'>
-				<div class='mblock-1'>
-					<img class='mimg' src="images/saksham.png" alt="">
-				</div>
-				<div class='mblock-2'>
-					<div class='mname'>Saksham Khanna</div>
-					<div class='mtenure'>2015 - Present</div>
-					<div class='mmail'>saksham@iecsemanipal.com</div>
 				</div>
 			</div>
 

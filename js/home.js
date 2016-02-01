@@ -44,8 +44,19 @@ $(window).scroll(function() {                  // assign scroll event listener
 
 });
 
-$(document).on('click','.chevron1',function(){});
-
 $(document).on('click','#wtm-button',function(){
     location.href = "https://www.facebook.com/Women-Techmakers-1602378576670289/";
+});
+
+$(document).on('click','#subscribe-btn',function(){
+    // get email id from form
+    var data = {};
+    data.email = $('#subscribe-input').val();
+    var url = "http://www.iecse.xyz/api/subscribe-gdg";
+    $.post(url,data,function(e){
+        $('#subscribe-thankyou').css({
+            'color':'#212121'
+        });
+    });
+
 });
