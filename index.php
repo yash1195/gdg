@@ -220,18 +220,23 @@ Security, Disaster Management.
 					<div class='mmail'>siddhanth@iecsemanipal.com</div>
 				</div>
 			</div>
-		</div>
 
-		<div class='link-row'>
+
+			<div class='link-row'>
 			<a href="https://www.facebook.com/GDGManipal?fref=ts"><i class="fa fa-facebook social-icon fb"></i></a>
 			<a href="https://developers.google.com/groups/chapter/101309722229928080208/"><i class="fa fa-google-plus-square social-icon gplus"></i></a>
 			<br> <br>
 			<div class='disclaimer'><b>Disclaimer:</b> GDG Manipal is an independent group; our activities and the opinions expressed on this website should in no way be linked to Google, the corporation.</div>
 		</div>
 
+
+		</div>
+
+		
+
 		<!-- FOOTER -->
 		<!-- <div class='foot' id='foot'>
-			developed by yash choukse
+			developed by yash choukse / !zeko
 		</div> -->
 	</div>
 </body>
