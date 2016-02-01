@@ -390,6 +390,7 @@ body{
 	width: 100vw;
 	height: 100vh;
 	background-color: #121314;
+	z-index: 999;
 }
 #loader{
 	position: absolute;
