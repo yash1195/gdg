@@ -276,7 +276,6 @@ body{
 	height: 40vh;
 	background-color: #fff;
 	color: #212121;
-	overflow: scroll;
 }
 .event-info{
 	width: 50%;

@@ -91,6 +91,18 @@
 				<!-- EVENT STARTS -->
 				<div class='event-card'>
 					<div class='event-picture-box'>
+						<img src="images/node-poster.jpg" class='event-picture' alt="">
+					</div>
+					<div class='event-info'>
+						<div class='event-info-title'>Node.Js Workshop</div>
+						<div class='event-info-descrip'>
+							A workshop on Node.Js which introduced people to the MEAN stack.
+						</div>
+					</div>
+				</div>
+				<!-- EVENT STARTS -->
+				<div class='event-card'>
+					<div class='event-picture-box'>
 						<img src="images/web-workshop.jpg" class='event-picture' alt="">
 					</div>
 					<div class='event-info'>
